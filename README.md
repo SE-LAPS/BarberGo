@@ -53,8 +53,7 @@ flutter run
 ```
 
 ## 📷 Screenshots
-![Home Screen](https://your-image-url.com/home.png)
-![Booking Screen](https://your-image-url.com/booking.png)
+|-----------------|-----------------|-----------------|-----------------|-----------------|
 
 ## 🤝 Contribution
 Pull requests are welcome! Feel free to **fork** and improve the project. ✨
