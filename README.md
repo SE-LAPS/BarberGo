@@ -53,7 +53,8 @@ flutter run
 ```
 
 ## 📷 Screenshots
-|-----------------|-----------------|-----------------|-----------------|-----------------|
+| SCREEN | SCREEN | SCREEN | SCREEN |
+|---------|------------|-------------|-------------|
 
 ## 🤝 Contribution
 Pull requests are welcome! Feel free to **fork** and improve the project. ✨
