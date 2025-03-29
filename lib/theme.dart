@@ -28,7 +28,7 @@ class AppTheme {
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           elevation: 0,
-          backgroundColor: kPrimaryColor,
+          backgroundColor: const Color(0xFFFFB22C),
           foregroundColor: Colors.white,
           minimumSize: const Size(double.infinity, 48),
           shape: const RoundedRectangleBorder(
