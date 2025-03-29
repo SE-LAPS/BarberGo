@@ -21,10 +21,10 @@ class _SplashContentState extends State<SplashContent> {
       children: <Widget>[
         const Spacer(),
         const Text(
-          "TOY-MINGLE",
+          "Barber-Go",
           style: TextStyle(
             fontSize: 32,
-            color: kPrimaryColor,
+            color: Color(0xFFFFB22C),
             fontWeight: FontWeight.bold,
           ),
         ),
