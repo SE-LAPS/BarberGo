@@ -9,33 +9,30 @@ class TopBrands extends StatelessWidget {
     // List of brand logos and names
     final List<Map<String, dynamic>> brands = [
       {
-        "image": "assets/images/brand1.png",
+        "image": "assets/images/bg1.png",
         "name": "LEGO",
       },
       {
-        "image": "assets/images/brand2.png",
+        "image": "assets/images/bg2.jpg",
         "name": "BANDAI NAMCO",
       },
       {
-        "image": "assets/images/brand3.png",
+        "image": "assets/images/bg3.jpeg",
         "name": "BARBIE",
       },
       {
-        "image": "assets/images/brand4.png",
+        "image": "assets/images/bg4.png",
         "name": "DRAGON BALL",
       },
       {
-        "image": "assets/images/brand5.png",
+        "image": "assets/images/bg5.png",
         "name": "HOT WHEELS",
       },
       {
-        "image": "assets/images/brand6.png",
+        "image": "assets/images/bg6.jpg",
         "name": "NERF",
       },
-      {
-        "image": "assets/images/brand7.png",
-        "name": "FISHER PRICE",
-      },
+      
     ];
 
     return Column(
