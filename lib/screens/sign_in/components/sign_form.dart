@@ -109,7 +109,7 @@ class _SignFormState extends State<SignForm> {
             children: [
               Checkbox(
                 value: remember,
-                activeColor: kPrimaryColor,
+                 activeColor: Color(0xFFFFB22C),
                 onChanged: (value) {
                   setState(() {
                     remember = value;
