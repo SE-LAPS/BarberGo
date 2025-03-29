@@ -25,16 +25,16 @@ class SpecialOffers extends StatelessWidget {
             children: [
               SpecialOfferCard(
                 image: "assets/images/Image Banner 2.png",
-                category: "Toy Cars",
-                numOfBrands: 18,
+                category: "Beauty Salon",
+                numOfBrands: 15,
                 press: () {
                   Navigator.pushNamed(context, ProductsScreen.routeName);
                 },
               ),
               SpecialOfferCard(
                 image: "assets/images/Image Banner 3.png",
-                category: "Dolls",
-                numOfBrands: 24,
+                category: "Beauty Salon",
+                numOfBrands: 20,
                 press: () {
                   Navigator.pushNamed(context, ProductsScreen.routeName);
                 },
