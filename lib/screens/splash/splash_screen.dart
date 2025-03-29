@@ -17,18 +17,18 @@ class _SplashScreenState extends State<SplashScreen> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Welcome to ToyMingle, Let’s Shop!",
-      "image": "assets/images/splash_1.gif"
+      "text": "Welcome to BarberGo, Let’s Shop!",
+      "image": "assets/images/BarberGo.gif"
     },
-  // {
-  //   "text":
-  //      "We help people conect with store \naround Sri Lanka",
-  //  "image": "assets/images/splash_2.png"
-  // },
-  // {
-  //   "text": "We show the easy way to shop. \nJust stay at home with us",
-  //  "image": "assets/images/splash_3.png"
-  //  },
+    // {
+    //   "text":
+    //      "We help people conect with store \naround Sri Lanka",
+    //  "image": "assets/images/splash_2.png"
+    // },
+    // {
+    //   "text": "We show the easy way to shop. \nJust stay at home with us",
+    //  "image": "assets/images/splash_3.png"
+    //  },
   ];
   @override
   Widget build(BuildContext context) {
@@ -71,7 +71,7 @@ class _SplashScreenState extends State<SplashScreen> {
                             width: currentPage == index ? 20 : 6,
                             decoration: BoxDecoration(
                               color: currentPage == index
-                                  ? kPrimaryColor
+                                  ? const Color(0xFFFFB22C)
                                   : const Color(0xFFD8D8D8),
                               borderRadius: BorderRadius.circular(3),
                             ),
@@ -83,7 +83,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         onPressed: () {
                           Navigator.pushNamed(context, SignInScreen.routeName);
                         },
-                        child: const Text("Continue"),
+                        child: const Text("Let's Go"),
                       ),
                       const Spacer(),
                     ],
