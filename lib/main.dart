@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'The ToyMingle - Mobile App',
+      title: 'The BarberGo - Mobile App',
       theme: AppTheme.lightTheme(context),
       initialRoute: AuthWrapper.routeName,
       routes: routes,
