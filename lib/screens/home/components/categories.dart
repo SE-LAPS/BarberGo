@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop_app/screens/flash_deal/flash_deal_screen.dart';
+import 'package:shop_app/screens/booking/booking.dart';
 import 'package:shop_app/screens/Game_deal/game_deal_screen.dart';
 import 'package:shop_app/screens/daily_gift_deal/daily_gift_screen.dart';
-// Use the same import strategy here as in routes.dart
-import 'package:shop_app/screens/swap/swap.dart' as swap_model;
-import 'package:shop_app/screens/swap/swap_screen.dart';
-import 'package:shop_app/screens/sell/sell_screen.dart';
-import 'package:shop_app/screens/child_lock/child_lock_screen.dart';
 
 class Categories extends StatelessWidget {
   const Categories({super.key});
@@ -15,13 +10,12 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Map<String, dynamic>> categories = [
-      {"icon": "assets/icons/Flash Icon.svg", "text": "Flash Deal"},     
-      {"icon": "assets/icons/Game Icon.svg", "text": "Game"},
-      {"icon": "assets/icons/Gift Icon.svg", "text": "Daily Gift"},
-      {"icon": "assets/icons/Settings.svg", "text": "Feed"},
-      {"icon": "assets/icons/Bell.svg", "text": "Activity"},
-      {"icon": "assets/icons/Lock.svg", "text": "Lock"},
+      {"icon": "assets/icons/Flash Icon.svg", "text": "Booking"},     
+      {"icon": "assets/icons/Game Icon.svg", "text": "History"},
+      {"icon": "assets/icons/Gift Icon.svg", "text": "Daily Offers"},
+
     ];
+    
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Row(
@@ -33,19 +27,14 @@ class Categories extends StatelessWidget {
             icon: categories[index]["icon"],
             text: categories[index]["text"],
             press: () {
-              if (categories[index]["text"] == "Flash Deal") {
-                Navigator.pushNamed(context, FlashDealScreen.routeName);
-              } else if (categories[index]["text"] == "Game") {
+              if (categories[index]["text"] == "Booking") {
+                Navigator.pushNamed(context, SalonBookingScreen.routeName);
+              } else if (categories[index]["text"] == "History") {
                 Navigator.pushNamed(context, GameDealScreen.routeName);
-              } else if (categories[index]["text"] == "Daily Gift") {
-                Navigator.pushNamed(context, DailyGiftScreen.routeName);
-              } else if (categories[index]["text"] == "Feed") {
-                Navigator.pushNamed(context, SwapScreen.routeName);
-              } else if (categories[index]["text"] == "Activity") {
-                Navigator.pushNamed(context, SellScreen.routeName);
-              } else if (categories[index]["text"] == "Lock") {
-                Navigator.pushNamed(context, ChildLockScreen.routeName);
+              } else if (categories[index]["text"] == "Daily Offers") {
+                Navigator.pushNamed(context, SalonDailyOffersScreen.routeName);
               }
+              // Feed and Activity buttons won't navigate anywhere now
             },
           ),
         ),
