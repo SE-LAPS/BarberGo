@@ -27,19 +27,16 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/ps4_console_white_1.png",
-      "assets/images/ps4_console_white_2.png",
-      "assets/images/ps4_console_white_3.png",
-      "assets/images/ps4_console_white_4.png",
+      "assets/images/barb10.png",
+      "assets/images/barb10.png",
+      "assets/images/barb10.png",
+      "assets/images/barb10.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+   
     ],
-    title: "Wireless Controller",
-    price: 60000.00,
+    title: "001",
+    price: 600.00,
     description: description,
     rating: 4.8,
     isFavourite: true,
@@ -48,16 +45,13 @@ List<Product> demoProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/Image Popular Product 2.png",
+      "assets/images/barb13.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+     
     ],
-    title: "Super Man",
-    price: 12000.00,
+    title: "002",
+    price: 1200.00,
     description: description,
     rating: 4.1,
     isPopular: true,
@@ -65,16 +59,13 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/car.png",
+      "assets/images/barb9.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+     
     ],
-    title: "Remote Car",
-    price: 18000.00,
+    title: "003",
+    price: 1800.00,
     description: description,
     rating: 4.1,
     isFavourite: true,
@@ -83,54 +74,45 @@ List<Product> demoProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/doll.png",
+      "assets/images/barb12.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+    
     ],
-    title: "Cute Yellow doll",
-    price: 10000.00,
+    title: "004",
+    price: 1000.00,
     description: description,
-    rating: 4.1,
+    rating: 4.2,
     isFavourite: true,
   ),
   Product(
     id: 1,
     images: [
-      "assets/images/ps4_console_blue_1.png",
-      "assets/images/ps4_console_blue_2.png",
-      "assets/images/ps4_console_blue_3.png",
-      "assets/images/ps4_console_blue_4.png",
+      "assets/images/barb11.png",
+      "assets/images/barb11.png",
+      "assets/images/barb11.png",
+      "assets/images/barb11.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+     
     ],
-    title: "Gaming Controller",
-    price: 40000.00,
+    title: "005",
+    price: 1500.00,
     description: description,
-    rating: 4.8,
+    rating: 4.5,
     isFavourite: true,
     isPopular: true,
   ),
   Product(
     id: 2,
     images: [
-      "assets/images/Image Popular Product 4.png",
+      "assets/images/barb8.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+    
     ],
-    title: "Cute White doll",
-    price: 8500.00,
+    title: "006",
+    price: 2500.00,
     description: description,
     rating: 4.1,
     isPopular: true,
@@ -138,34 +120,28 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/benten.png",
+      "assets/images/barb13.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+    
     ],
-    title: "Electric Benten",
-    price: 35000.00,
+    title: "007",
+    price: 3500.00,
     description: description,
-    rating: 4.1,
+    rating: 4.9,
     isFavourite: true,
     isPopular: true,
   ),
   Product(
     id: 4,
     images: [
-      "assets/images/spider.png",
+      "assets/images/barb10.png",
     ],
     colors: [
-      const Color(0xFFF6625E),
-      const Color(0xFF836DB8),
-      const Color(0xFFDECB9C),
-      Colors.white,
+    
     ],
-    title: "Spider Man",
-    price: 42000.00,
+    title: "008",
+    price: 4200.00,
     description: description,
     rating: 4.1,
     isFavourite: true,
