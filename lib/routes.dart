@@ -13,13 +13,10 @@ import 'screens/profile/profile_screen.dart';
 import 'screens/sign_in/sign_in_screen.dart';
 import 'screens/sign_up/sign_up_screen.dart';
 import 'screens/splash/splash_screen.dart';
-import 'screens/swap/post_swap_screen.dart';
-import 'screens/swap/swap_screen.dart';
-import 'screens/sell/sell_screen.dart';
-import 'screens/child_lock/child_lock_screen.dart';
+
 import 'screens/settings/settings_screen.dart';
 import 'screens/help_center/help_center_screen.dart';
-import 'screens/flash_deal/flash_deal_screen.dart';
+import 'screens/booking/booking.dart';
 import 'screens/game_deal/game_deal_screen.dart';
 import 'screens/daily_gift_deal/daily_gift_screen.dart';
 import 'widgets/auth_wrapper.dart';
@@ -40,14 +37,11 @@ final Map<String, WidgetBuilder> routes = {
   DetailsScreen.routeName: (context) => const DetailsScreen(),
   CartScreen.routeName: (context) => const CartScreen(),
   ProfileScreen.routeName: (context) => const ProfileScreen(),
-  SwapScreen.routeName: (context) => const SwapScreen(),
-  PostSwapScreen.routeName: (context) => const PostSwapScreen(),
-  SellScreen.routeName: (context) => const SellScreen(),
-  ChildLockScreen.routeName: (context) => const ChildLockScreen(),
+
   SettingsScreen.routeName: (context) => const SettingsScreen(),
   HelpCenterScreen.routeName: (context) => const HelpCenterScreen(),
-  FlashDealScreen.routeName: (context) => FlashDealScreen(),
+  SalonBookingScreen.routeName: (context) => SalonBookingScreen(),
   GameDealScreen.routeName: (context) => GameDealScreen(),
-  DailyGiftScreen.routeName: (context) => const DailyGiftScreen(),
+  SalonDailyOffersScreen.routeName: (context) => const SalonDailyOffersScreen(),
   EmailVerificationScreen.routeName: (context) => const EmailVerificationScreen(),
 };
